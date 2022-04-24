@@ -5,4 +5,4 @@ metadata:
   name: cluster-1-app
   labels:
     project: cluster-3-app
-    cluster: '{{ fromClusterClaim "name" }}'
+#    cluster: '{{ fromClusterClaim "name" }}'
