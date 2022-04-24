@@ -1,0 +1,8 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: cluster-1-app
+  labels:
+    project: cluster-2-app
+#    cluster: '{{ fromClusterClaim "name" }}'
