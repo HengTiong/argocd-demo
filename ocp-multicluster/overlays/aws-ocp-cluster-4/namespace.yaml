@@ -4,5 +4,5 @@ kind: Namespace
 metadata:
   name: cluster-1-app
   labels:
-    project: cluster-1-app
+    project: cluster-4-app
 #    cluster: '{{ fromClusterClaim "name" }}'

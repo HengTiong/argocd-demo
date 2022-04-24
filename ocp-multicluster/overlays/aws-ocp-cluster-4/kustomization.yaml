@@ -1,6 +1,6 @@
 resources:
 - namespace.yaml
 - ../../base
-namespace: cluster-1-app
+namespace: cluster-4-app
 patchesStrategicMerge:
 - network-policy.yaml
